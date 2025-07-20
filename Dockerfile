@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:20-slim
 
 RUN apk add --update graphicsmagick tzdata
 
